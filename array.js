@@ -1,6 +1,6 @@
 // array
 
-const myArr = [3,0,1,2,0,3,5,0,4,"false",'813']
+// const myArr = [3,0,1,2,0,3,5,0,4,"false",'813']
 const myHeors = ["shaktiman", "naagraj",["jitesh","nidhi"]]
 
 // myHeors[1]="jitesh"
@@ -55,4 +55,20 @@ const newArr = myArr.join() //Adds all the elements of an array into a string, s
 // console.log(myArr);
 // console.log( newArr);
 
+// slice, splice
+
+// console.log("A ", myArr);
+
+
+
+// const myn1 = myArr.slice(5,7)
+
+// console.log(myn1);
+// output: [3,5]
+
+
+// const myn2 = myArr.splice(1, 3)
+// console.log(myn2);
+
+// slice does not change the original arr but in splice the original arr changes and splice part cut down from the original arr
 
