@@ -23,7 +23,7 @@ const age = 22
          
 // console.log(`My name is ${name} and age is ${age}`);
 
-const gameName = new String('Nidhi ponnalwar')
+// const gameName = new String('Nidhi ponnalwar')
 
 // console.log(gameName[4]);
 // output: i
@@ -67,7 +67,8 @@ const newStringOne = "   jiddi";
 
 const url = "https://jitesh.com/jitesh%20kumar"
 
-// console.log(gameName.replace('Ponnalwar', 'Jitesh Kumar')) 
+const gameName = new String('Nidhi Ponnalwar')
+console.log(gameName.replace('Ponnalwar', 'Jitesh Kumar')) 
 
 let email="jitesh123-kumar@.com"
 // console.log(email.includes("-")) // if there is value present in this string returns true otherwise returns a false.
